@@ -337,13 +337,14 @@ label {
 .contactimg{
     height: 280px;
     margin-left: 100px;
+    margin-top: 60px;
 }
 
 .contactbox{
     justify-content: center;
     display: flex;
     flex-direction: row;
-    height: 280px;
+    height: 420px;
 }
 .flex {
     display: flex;
