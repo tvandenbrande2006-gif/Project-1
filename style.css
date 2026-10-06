@@ -9,7 +9,7 @@ body {
 .animbox {
     height: 200px;
     width: 455px;
-    margin: 100px auto;
+    margin: 130px auto;
     gap: 10px;
     display: flex;
     flex-direction: row;
@@ -195,7 +195,8 @@ ul {
 .spacer {
     height: 400px;
 }
-.line{
+
+.line {
     background-color: #2374AB;
     width: 60%;
     height: 10px;
@@ -204,6 +205,7 @@ ul {
     transform: translateX(-50%);
     position: absolute;
 }
+
 .TITLES {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 700px;
@@ -212,9 +214,11 @@ ul {
     color: #FF8484;
     font-size: 24px;
 }
-#titlemarginup{
+
+#titlemarginup {
     margin: 40px auto;
 }
+
 #titlemargindown {
     margin: -40px auto;
 }
@@ -244,9 +248,11 @@ ul {
 .button {
     color: #4DCCBD;
 }
-#NOBG{
-    background-color:#231651;
+
+#NOBG {
+    background-color: #231651;
 }
+
 .borderbutton:hover {
     transform: scale(1.2);
 }
@@ -285,6 +291,7 @@ form {
     margin-top: 10px;
     color: white;
 }
+
 input,
 textarea {
     outline: none;
@@ -293,9 +300,11 @@ textarea {
     padding: 10px;
     border: none;
 }
-textarea{
+
+textarea {
     height: 50px;
 }
+
 label {
     border-radius: 10px;
     padding: 5px;
@@ -305,6 +314,7 @@ label {
     font-size: 1.2rem;
     font-weight: 10px;
 }
+
 .Buttonsubmit {
     align-self: flex-end;
     background-color: rgb(17, 14, 85);
@@ -312,10 +322,29 @@ label {
     font-size: 1.2rem;
     transition-duration: 1.3s;
 }
+
 .topborderTP {
     height: 80px;
     background-color: #2374AB;
     flex-wrap: nowrap;
     align-items: center;
     z-index: 10;
+}
+
+.gnrimg {
+    height: 200px;
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TXTMAIN {
+    color: #4DCCBD;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
