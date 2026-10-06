@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+    background-color: #231651;
+}
+
+.animbox {
+    height: 200px;
+    width: 455px;
+    margin: 100px auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.balk1,
+.balk2,
+.balk3,
+.balk4,
+.balk5,
+.balk6 {
+    height: 200px;
+    width: 75px;
+    background-color: #D6FFF6;
+    animation: balk 3000ms infinite;
+}
+
+.balk1 {
+    animation-delay: 0s;
+}
+
+.balk2 {
+    animation-delay: 0.5s;
+}
+
+.balk3 {
+    animation-delay: 1s;
+}
+
+.balk4 {
+    animation-delay: 1.5s;
+}
+
+.balk5 {
+    animation-delay: 2s;
+}
+
+.balk6 {
+    animation-delay: 2.5s;
+}
+
+@keyframes balk {
+    0% {
+        height: 200px;
+        margin-top: 0px;
+    }
+
+    50% {
+        height: 5px;
+        margin-top: 195px;
+    }
+
+    100% {
+        height: 200px;
+        margin-top: 0px;
+    }
+}
+
+.DTP1 {
+    background-color: #e4293f;
+}
+
+.DTP2 {
+    background-color: #DDA73A;
+}
+
+.DTP3 {
+    background-color: #4E9F3A;
+}
+
+.DTP4 {
+    background-color: #E8422F;
+}
+
+.DTP5 {
+    background-color: #31BCE2;
+}
+
+.DTP6 {
+    background-color: #A31E45;
+}
+
+.topborder {
+    height: 80px;
+    background-color: #0c2847;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 10;
+}
+
+.backvid,
+.topborder {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.topborder img {
+    height: 80%;
+    padding-left: 20px;
+}
+
+.topborder .media a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.media {
+    margin-left: auto;
+    padding-right: 40px;
+    flex-wrap: nowrap;
+}
+
+.centerbox {
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.DSGIMG {
+    height: 250px;
+    width: 250px;
+}
+
+.textbox {
+    height: 100%;
+    color: white;
+    width: 50%;
+}
+
+.textbox p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.backvid {
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -10;
+    height: 100%;
+}
+
+.flexbox {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flexbox img {
+    cursor: pointer;
+    transition-duration: 1s;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.flexbox img:hover {
+    scale: calc(1.2);
+}
+
+.spacer {
+    height: 400px;
+}
+.line{
+    background-color: #2374AB;
+    width: 60%;
+    height: 10px;
+    margin-top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.TITLES {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    text-align: center;
+    color: #FF8484;
+    font-size: 24px;
+}
+#titlemarginup{
+    margin: 40px auto;
+}
+#titlemargindown {
+    margin: -40px auto;
+}
+
+.text,
+.button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.borderbutton {
+    text-align: center;
+    font-size: 20px;
+    border: #4DCCBD 3px solid;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 10;
+    font-weight: 400;
+}
+
+
+.button {
+    color: #4DCCBD;
+}
+#NOBG{
+    background-color:#231651;
+}
+.borderbutton:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.grouper {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 17px;
+}
+
+.buttonbox {
+    margin-top: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(255, 94, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+input,
+textarea {
+    outline: none;
+    background: rgb(196, 206, 208);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+textarea{
+    height: 50px;
+}
+label {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(226, 253, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 14, 85);
+    font-size: 1.2rem;
+    font-weight: 10px;
+}
+.Buttonsubmit {
+    align-self: flex-end;
+    background-color: rgb(17, 14, 85);
+    color: whitesmoke;
+    font-size: 1.2rem;
+    transition-duration: 1.3s;
+}
+.topborderTP {
+    height: 80px;
+    background-color: #2374AB;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 10;
+}
