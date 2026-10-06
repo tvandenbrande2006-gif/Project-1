@@ -283,8 +283,7 @@ form {
     flex-direction: column;
     justify-content: center;
     gap: 3px;
-    width: 300px;
-    margin: auto;
+    width: 500px;
     background-color: rgb(255, 94, 0);
     padding: 10px;
     border-radius: 5px;
@@ -335,7 +334,17 @@ label {
     height: 200px;
     width: 200px;
 }
+.contactimg{
+    height: 280px;
+    margin-left: 100px;
+}
 
+.contactbox{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+}
 .flex {
     display: flex;
     flex-direction: row;
