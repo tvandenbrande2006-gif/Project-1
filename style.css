@@ -380,3 +380,11 @@ label {
     color: #FF8484;
     scale: 0.95;
 }
+
+.imgcv {
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border: #4DCCBD 4px solid;
+    border-radius: 5px;
+}
