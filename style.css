@@ -322,30 +322,25 @@ label {
     transition-duration: 1.3s;
 }
 
-.topborderTP {
-    height: 80px;
-    background-color: #2374AB;
-    flex-wrap: nowrap;
-    align-items: center;
-    z-index: 10;
-}
 
 .gnrimg {
     height: 200px;
     width: 200px;
 }
-.contactimg{
+
+.contactimg {
     height: 280px;
     margin-left: 100px;
     margin-top: 60px;
 }
 
-.contactbox{
+.contactbox {
     justify-content: center;
     display: flex;
     flex-direction: row;
     height: 420px;
 }
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -357,4 +352,30 @@ label {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+.topborderTP {
+    height: 70px;
+    background-color: #2374AB;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    z-index: 10;
+    gap: 5px;
+}
+
+.topborderTP a {
+    line-height: 70px;
+    color: #4DCCBD;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    transition-duration: 1s;
+}
+
+.topborderTP a:hover {
+    color: #FF8484;
+    scale: 0.95;
 }
