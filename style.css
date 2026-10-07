@@ -205,7 +205,16 @@ ul {
     transform: translateX(-50%);
     position: absolute;
 }
+.lineCV{
+        background-color: #2374AB;
+    width: 600px;
+    height: 4px;
 
+    margin: auto;
+    transform: translateX(-50%);
+    position: absolute;
+}
+          
 .TITLES {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 700px;
@@ -387,4 +396,16 @@ label {
     margin-left: 200px;
     border: #4DCCBD 4px solid;
     border-radius: 5px;
+}
+.CVBDTP{
+    margin-top: 50px;
+}
+#tablebrdr{
+    border: #31BCE2 2px solid;
+    border-collapse: collapse;
+    
+}
+#tablebrdr td, #tablebrdr th{
+    padding: 2px;
+        border: #31BCE2 2px solid;
 }
