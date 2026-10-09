@@ -68,31 +68,31 @@ body {
     }
 }
 
-.DTP1 {
+.SDG1 {
     background-color: #e4293f;
 }
 
-.DTP2 {
+.SDG2 {
     background-color: #DDA73A;
 }
 
-.DTP3 {
+.SDG3 {
     background-color: #4E9F3A;
 }
 
-.DTP4 {
+.SDG4 {
     background-color: #E8422F;
 }
 
-.DTP5 {
+.SDG5 {
     background-color: #31BCE2;
 }
 
-.DTP6 {
+.SDG6 {
     background-color: #A31E45;
 }
 
-.topborder {
+.topborderSDG {
     height: 80px;
     background-color: #0c2847;
     flex-wrap: nowrap;
@@ -100,8 +100,8 @@ body {
     z-index: 10;
 }
 
-.backvid,
-.topborder {
+.SDGBG,
+.topborderSDG {
     width: 100%;
     position: fixed;
     left: 0;
@@ -109,24 +109,24 @@ body {
     display: flex;
 }
 
-.topborder img {
+.topborderSDG img {
     height: 80%;
     padding-left: 20px;
 }
 
-.topborder .media a {
+.topborderSDG .mediaSDG a {
     color: white;
     font-size: 24px;
     text-decoration: none;
 }
 
-.media {
+.mediaSDG {
     margin-left: auto;
     padding-right: 40px;
     flex-wrap: nowrap;
 }
 
-.centerbox {
+.centerboxSDG {
     width: 100%;
     margin: auto;
     margin-top: 150px;
@@ -141,36 +141,36 @@ body {
     width: 250px;
 }
 
-.textbox {
+.textboxSDG {
     height: 100%;
     color: white;
     width: 50%;
 }
 
-.textbox p {
+.textboxSDG p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-ul {
+.textboxSDG ul {
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.title {
+.titleSDG {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 27px;
     padding: 10px;
 }
 
-.backvid {
+.SDGBG {
     overflow: hidden;
     object-fit: cover;
     z-index: -10;
     height: 100%;
 }
 
-.flexbox {
+.SDGflex {
     width: 50%;
     margin: auto;
     margin-top: 150px;
@@ -180,7 +180,7 @@ ul {
 
 }
 
-.flexbox img {
+.SDGflex img {
     cursor: pointer;
     transition-duration: 1s;
     padding: 10px;
@@ -188,7 +188,7 @@ ul {
     width: 200px;
 }
 
-.flexbox img:hover {
+.SDGflex img:hover {
     scale: calc(1.2);
 }
 
