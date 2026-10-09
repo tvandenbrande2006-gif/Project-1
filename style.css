@@ -308,6 +308,7 @@ textarea {
     border-radius: 10px;
     padding: 10px;
     border: none;
+    color: var(--DB);
 }
 
 textarea {
@@ -317,9 +318,9 @@ textarea {
 label {
     border-radius: 10px;
     padding: 5px;
-    background-color: var(--CYAN);
+    background-color: var(--DB);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--DB);
+    color: var(--CYAN);
     font-size: 1.2rem;
     font-weight: 10px;
 }
