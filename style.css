@@ -398,7 +398,7 @@ label {
     transition-duration: 1s;
 }
 
-.topborderTP a:hover {
+.topborderTP a:hover, .iconbottem:hover {
     color: var(--PEACH);
     scale: 0.95;
 }
@@ -438,17 +438,21 @@ label {
 }
 
 .icontop {
+    height: 52px;
     position: absolute;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     left: 0;
     margin-left: 20px;
+    /* transition-duration: 1s; */
 }
 
 .iconbottem {
+    height: 52px;
     position: absolute;
     margin-top: 15px;
     right: 0;
     margin-right: 20px;
+    transition-duration: 1s;
 }
 
 
