@@ -8,13 +8,15 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
     <link rel="icon" type="image/png" href="videos/icon.png">
 </head>
 
 <body class="min-width-400">
     <nav class="navbar lg:navbar-expand topbrd">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="videos/icon.png" alt="Toon Portfolio"></a>
+            <a class="navbar-brand" href="index.html"><img class="rounded-8" src="videos/icon.png"
+                    alt="Toon Portfolio"></a>
 
             <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
                 data-bs-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false"
@@ -48,7 +50,6 @@
                                 <a class="nav-link" href="CV.html">CV en Ervaring</a>
                                 <a class="nav-link" href="interesses.html">Interesses</a>
                                 <a class="nav-link" href="wiebenik.html">Wie ben ik</a>
-                                <a class="nav-link disabled" aria-disabled="true">contact</a>
                             </div>
                         </li>
                     </ul>
@@ -56,32 +57,45 @@
             </dialog>
         </div>
     </nav>
+    <h1 class="TITLES mt-10">CONTACT</h1>
     <div class="container-fluid px-25">
-        <div class="row align-items-center g-10 p-10">
-
+        <div class="row align-items-center g-10 p-2 w-100 m-auto">
             <div class="md:col-12 lg:col-6 ">
-
                 <form action="https://tm-statweb.be/forms.php" method="post">
                     <input type="hidden" name="studentemail" value="r1182523@student.thomasmore.be">
 
-                    <label for="naam">Naam</label>
-                    <input type="text" id="naam" name="naam" class="form-control mb-3" required>
+                    <label for="naam" class="form-label mb-3">
+                        Naam en voornaam
+                    </label>
+                    <input type="text" id="naam" name="naam" class="form-control mb-3" required minlength="2" maxlength="100"
+                        autocomplete="name">
 
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" class="form-control mb-3" required>
+                    <label for="email" class="form-label mb-3">
+                        E-mailadres
+                    </label>
+                    <input type="email" id="email" name="email" class="form-control mb-3" required autocomplete="email">
 
-                    <label for="onderwerp">Onderwerp</label>
-                    <input type="text" id="onderwerp" name="onderwerp" class="form-control mb-3" required>
+                    <label for="skills" class="form-label mb-3">
+                        Interesse in skills
+                    </label>
+                    <select id="skills" name="skills" class="form-select mb-3" required>
+                        <option value="" selected disabled>
+                            Kies een skill
+                        </option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" class="form-control mb-3" rows="5" required></textarea>
+                    <label for="message" class="form-label mb-3">
+                        Vraag
+                    </label>
+                    <textarea id="message" name="message" class="form-control mb-3" rows="5" required minlength="10"
+                        maxlength="1000"></textarea>
 
-                    <input type="submit" value="Send" class="btn btn-primary">
+                    <input type="submit" value="Send" class="btn">
+
                 </form>
-
             </div>
-
-
             <div class="md:col-12 lg:col-6 text-center">
                 <img class="img-fluid gnrimg" src="videos/contact.png" alt="poppetjes">
             </div>
@@ -92,6 +106,23 @@
         <p class="TXTMAIN">r1182523@student.thomasmore.be</p>
         <p class="TXTMAIN">https://be.linkedin.com/school/thomas-more-hogeschool/</p>
     </div>
+
+    <footer class=" d-flex flex-wrap justify-content-between align-items-center bottom-0 BPE">
+        <div class="md:col-6 d-flex align-items-center p-5"><a href="index.html">
+                <img class="rounded-8" src="videos/icondark.png" alt="Toon Portfolio"></a>
+            <span class="CCY ms-5 user-select-none">&copy; Van den Brande Toon</span>
+        </div>
+        <ul class="nav md:col-4 justify-content-end list-unstyled d-flex">
+            <li class="me-3">
+                <a class="TXTMAIN bi bi-instagram" href="https://www.instagram.com/thomasmore.be/?hl=en"></a>
+            </li>
+            <li class="me-3">
+                <a class="TXTMAIN bi bi-facebook"
+                    href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FThomasMoreBE%2F"></a></a>
+            </li>
+        </ul>
+    </footer>
+
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
         crossorigin="anonymous"></script>

@@ -9,10 +9,11 @@ body {
 .animbox {
     height: 200px;
     width: 455px;
-    margin: 130px auto;
+    margin: 10px auto 10px;
     gap: 10px;
     display: flex;
     flex-direction: row;
+    
 }
 
 .balk1,
@@ -204,8 +205,45 @@ body {
     --DB: #231651;
 }
 
+.BLB {
+    background-color: var(--LB);
+}
+
+.BAQ,
 .topbrd {
     background-color: var(--AQUA);
+}
+
+.BCY {
+    background-color: var(--CYAN);
+}
+
+.BPE {
+    background-color: var(--PEACH);
+}
+
+.BDB {
+    background-color: var(--DB);
+}
+
+.CLB {
+    color: var(--LB);
+}
+
+.CAQ {
+    color: var(--AQUA);
+}
+
+.CCY {
+    color: var(--CYAN);
+}
+
+.CPE {
+    color: var(--PEACH);
+}
+
+.CDB {
+    color: var(--DB);
 }
 
 .topbrd a {
@@ -217,13 +255,20 @@ body {
     transition-duration: 1s;
 }
 
-.topbrd a:hover {
+.topbrd .drawer-body a:hover {
     color: var(--PEACH);
+    background-color: var(--DB);
 }
+
+.btn:active {
+    scale: 0.95;
+    background-color: var(--AQUA);
+}
+
 
 .TITLES {
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-style: normal;
     text-align: center;
     color: var(--PEACH);
@@ -233,7 +278,7 @@ body {
 .gnrimg {
     display: block;
     width: 100%;
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     margin-inline: auto;
 }
@@ -290,6 +335,15 @@ label {
     font-size: 1.2rem;
     font-weight: 10px;
 }
+
 .min-width-400 {
-    min-width: 400px;
+    min-width: 300px;
+}
+.bi {
+    transition-duration: 3s;
+    font-size: 30px;
+}
+
+.bi:hover {
+    color: var(--DB);
 }
