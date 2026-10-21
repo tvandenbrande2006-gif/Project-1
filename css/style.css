@@ -254,8 +254,10 @@ body {
     font-weight: 400;
     transition-duration: 1s;
 }
-
-.topbrd .drawer-body a:hover {
+.card-btn{
+    color: var(--DB);
+}
+.topbrd .drawer-body a:hover, .card-btn:hover {
     color: var(--PEACH);
     background-color: var(--DB);
 }
@@ -323,6 +325,7 @@ textarea {
 }
 
 textarea {
+    max-height: 200px;
     height: 50px;
 }
 
