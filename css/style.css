@@ -13,7 +13,7 @@ body {
     gap: 10px;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .balk1,
@@ -26,11 +26,6 @@ body {
     width: 75px;
     background-color: var(--LB);
     animation: balk 3000ms infinite;
-}
-@media screen and (max-width: 576px) {
-.animbox {
-    display: none;
-}
 }
 
 .balk2 {
@@ -255,10 +250,13 @@ body {
     font-weight: 400;
     transition-duration: 1s;
 }
-.card-btn{
+
+.card-btn {
     color: var(--DB);
 }
-.topbrd .drawer-body a:hover, .card-btn:hover {
+
+.topbrd .drawer-body a:hover,
+.card-btn:hover {
     color: var(--PEACH);
     background-color: var(--DB);
 }
@@ -277,6 +275,11 @@ body {
     color: var(--PEACH);
     font-size: 24px;
 }
+
+.txtstart {
+    text-align: start;
+}
+
 
 .gnrimg {
     display: block;
@@ -344,6 +347,7 @@ label {
 .min-width-400 {
     min-width: 300px;
 }
+
 .bi {
     transition-duration: 3s;
     font-size: 30px;
@@ -351,4 +355,27 @@ label {
 
 .bi:hover {
     color: var(--DB);
+}
+
+@media screen and (max-width: 768px) {
+    .txtstart  {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .animbox {
+        display: none;
+    }
+    .SFCR{flex-direction: column-reverse;}
+}
+
+@media screen and (max-width: 362px) {
+
+    .Fmid {
+        margin: auto;
+    }
+
 }
