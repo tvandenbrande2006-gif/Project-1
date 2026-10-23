@@ -13,7 +13,7 @@
 </head>
 
 
-<body class="min-width-400">
+<body class="min-width-400 overflow-x-hidden">
     <nav class="navbar lg:navbar-expand topbrd">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img class="rounded-8" src="videos/icon.png"
@@ -61,17 +61,19 @@
     <h1 class="TITLES mt-10">CV EN ERVARING</h1>
 
     <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="d-inline-flex BAQ p-3 rounded-3 align-items-center gap-3">
+                <p class="TXTMAIN mb-0">
+                    Deze website heb ik ontworpen voor een oefening
+                </p>
 
-        <div class="flex">
-            <p class="TXTMAIN">Deze website heb ik ontworpen voor een oefening</p>
-            <div class="grouper">
-                <div class="borderbutton">
-                    <a href="SDGhome.html" class="button">SDG website</a>
-                </div>
+                <a href="SDGhome.html" class="btn-solid BPE card-btn flex-shrink-0">
+                    SDG website
+                </a>
             </div>
         </div>
-        <div>
-            <div class="flex">
+        <div class="lg:col-9 m-auto">
+            <div class="d-flex SCLM gap-10 align-items-center mt-10">
                 <div>
                     <p class="TXTMAIN">PERSOONLIJKE GEGEVENS</p>
                     <p class="TXTMAIN">Adres: Campus Blairon 800, 2300 Turnhout</p>
@@ -84,14 +86,14 @@
                     <p class="TXTMAIN">Nationaliteit: België</p>
                     <p class="TXTMAIN">Persoonlijke situatie: Ongehuwd</p>
                 </div>
-                <img class="imgcv" src="videos/imgcv.png" alt="me">
+                <img class="imgcv mb-10" src="videos/imgcv.png" alt="Foto Toon">
             </div>
             <p class="TXTMAIN">WERK ERVARING</p>
             <div class="lineCV"></div>
-            <div class="flex">
-                <p class="TXTMAIN">10-2023 tot 09-2025
+            <div class="d-flex flex-row align-items-center">
+                <p class="TXTMAIN col-6">10-2023 tot 09-2025
                 </p>
-                <div>
+                <div class="col-6">
                     <p class="TXTMAIN">Speelkaartenmuseum Turnhout
                     </p>
                     <p class="TXTMAIN">Archivaris</p>
@@ -99,28 +101,28 @@
             </div>
             <p class="TXTMAIN">OPLEIDING</p>
             <div class="lineCV"></div>
-            <div class="flex">
-                <p class="TXTMAIN">09-2025 tot 06-2026
+            <div class="d-flex flex-row align-items-center">
+                <p class="TXTMAIN col-6">09-2025 tot 06-2026
                 </p>
-                <div>
+                <div class="col-6">
                     <p class="TXTMAIN">CVO HIK Geel
                     </p>
                     <p class="TXTMAIN">Secundair onderwijs</p>
                 </div>
             </div>
-            <div class="flex">
-                <p class="TXTMAIN">02-2026 tot …
+            <div class="d-flex flex-row align-items-center">
+                <p class="TXTMAIN col-6">02-2026 tot …
                 </p>
-                <div>
+                <div class="col-6">
                     <p class="TXTMAIN">Edukempen Oud-Turnhout
                     </p>
                     <p class="TXTMAIN">Webdesigner</p>
                 </div>
             </div>
-            <div class="flex">
-                <p class="TXTMAIN">2021 tot 2025
+            <div class="d-flex flex-row align-items-center ">
+                <p class="TXTMAIN col-6">2021 tot 2025
                 </p>
-                <div>
+                <div class="col-6">
                     <p class="TXTMAIN">Codefever (Hoogstraten / Gent)
                     </p>
                     <p class="TXTMAIN">Weekendcursus programmeren</p>
@@ -149,82 +151,77 @@
                             <td>++</td>
                             <td>+</td>
                         </tr>
-                        <tr>
-                            <th>Engels</th>
-                            <td>--</td>
-                            <td>+</td>
-                            <td>--</td>
-                        </tr>
                     </table>
                 </div>
             </div>
-            <div>
-                <p class="TXTMAIN">COMPUTERKENNIS</p>
-                <div class="lineCV"></div>
-                <div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
-                    style="--bs-carousel-items: 3; --bs-carousel-items-gap: 1rem;">
-                    <h3 class="TXTMAIN">Computerprogramma's:</h3>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
-                                data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
-                                <span class="carousel-icon-prev" aria-hidden="true"></span>
+        </div>
+        <div>
+            <p class="TXTMAIN mt-10">COMPUTERKENNIS</p>
+            <div class="lineCV"></div>
+            <div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+                style="--bs-carousel-items: 3; --bs-carousel-items-gap: 1rem;">
+                <h3 class="TXTMAIN">Computerprogramma's:</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
+                            data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                            <span class="carousel-icon-prev" aria-hidden="true"></span>
 
-                            </button>
-                            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
-                                data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
-                                <span class="carousel-icon-next" aria-hidden="true"></span>
+                        </button>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
+                            data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                            <span class="carousel-icon-next" aria-hidden="true"></span>
 
-                            </button>
-                        </div>
+                        </button>
                     </div>
+                </div>
 
 
-                    <div class="carousel-inner">
+                <div class="carousel-inner">
 
-                        <div class="carousel-item active">
-                            <p class="TXTMAIN">HTML</p><img src="videos/htmlimgcv.png" class="d-block w-100 rounded-5"
-                                alt="HTML">
-                        </div>
-                        <div class="carousel-item">
-                            <p class="TXTMAIN">Python</p><img src="videos/pythonimgcv.png"
-                                class="d-block w-100 rounded-5" alt="Python">
-                        </div>
-                        <div class="carousel-item">
-                            <p class="TXTMAIN">Javascript</p><img src="videos/javaimgcv.png"
-                                class="d-block w-100 rounded-5" alt="Javascript">
-                        </div>
-                        <div class="carousel-item">
-                            <p class="TXTMAIN">CSS</p><img src="videos/cssimgcv.png" class="d-block w-100 rounded-5"
-                                alt="CSS">
-                        </div>
-                        <div class="carousel-item">
-                            <p class="TXTMAIN">M365</p><img src="videos/m365imgcv.png" class="d-block w-100 rounded-5"
-                                alt="M365">
-                        </div>
+                    <div class="carousel-item active">
+                        <p class="TXTMAIN">HTML</p><img src="videos/htmlimgcv.png" class="d-block w-100 rounded-5"
+                            alt="HTML">
+                    </div>
+                    <div class="carousel-item">
+                        <p class="TXTMAIN">Python</p><img src="videos/pythonimgcv.png" class="d-block w-100 rounded-5"
+                            alt="Python">
+                    </div>
+                    <div class="carousel-item">
+                        <p class="TXTMAIN">Javascript</p><img src="videos/javaimgcv.png" class="d-block w-100 rounded-5"
+                            alt="Javascript">
+                    </div>
+                    <div class="carousel-item">
+                        <p class="TXTMAIN">CSS</p><img src="videos/cssimgcv.png" class="d-block w-100 rounded-5"
+                            alt="CSS">
+                    </div>
+                    <div class="carousel-item">
+                        <p class="TXTMAIN">M365</p><img src="videos/m365imgcv.png" class="d-block w-100 rounded-5"
+                            alt="M365">
                     </div>
                 </div>
             </div>
-            <div>
-                <p class="TXTMAIN">PERSOONLIJKE VAARDIGHEDEN</p>
-                <div class="lineCV"></div>
-                <ul class="TXTMAIN">
-                    <li>Doorzettingsvermogen</li>
-                    <li>Probleemoplossend denken</li>
-                    <li>Leergierig </li>
-                </ul>
-            </div>
-            <div>
-                <p class="TXTMAIN">VARIA</p>
-                <div class="lineCV"></div>
-                <h3 class="TXTMAIN">hobby's:</h3>
-                <ul class="TXTMAIN">
-                    <li>Programmeren</li>
-                    <li>Reizen</li>
-                    <li>Koken</li>
-                </ul>
-            </div>
         </div>
+        <div>
+            <p class="TXTMAIN mt-5">PERSOONLIJKE VAARDIGHEDEN</p>
+            <div class="lineCV"></div>
+            <ul class="TXTMAIN">
+                <li>Doorzettingsvermogen</li>
+                <li>Probleemoplossend denken</li>
+                <li>Leergierig </li>
+            </ul>
+        </div>
+        <div>
+            <p class="TXTMAIN">VARIA</p>
+            <div class="lineCV"></div>
+            <h3 class="TXTMAIN">hobby's:</h3>
+            <ul class="TXTMAIN">
+                <li>Programmeren</li>
+                <li>Reizen</li>
+                <li>Koken</li>
+            </ul>
+        </div>
+
     </div>
     <footer class=" d-flex flex-wrap justify-content-between align-items-center bottom-0 BPE">
         <div class="md:col-6 d-flex align-items-center p-5"><a href="index.html">

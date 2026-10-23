@@ -357,11 +357,18 @@ label {
     color: var(--DB);
 }
 
+.SCLM {
+    flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
-    .txtstart  {
+    .txtstart {
         text-align: center;
     }
 
+    .SCLM {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -369,13 +376,44 @@ label {
     .animbox {
         display: none;
     }
-    .SFCR{flex-direction: column-reverse;}
+
+    .SFCR {
+        flex-direction: column-reverse;
+    }
+
 }
+
 
 @media screen and (max-width: 362px) {
 
     .Fmid {
         margin: auto;
     }
+
+}
+
+#tablebrdr {
+    border: var(--LB) 2px solid;
+    border-collapse: collapse;
+
+}
+
+#tablebrdr td,
+#tablebrdr th {
+    padding: 2px;
+    border: var(--LB) 2px solid;
+}
+
+#tablebrdr th {
+    background-color: var(--AQUA);
+}
+
+.lineCV {
+
+    background-color: var(--AQUA);
+    width: 100%;
+    height: 4px;
+    margin-bottom: 10px;
+
 
 }
