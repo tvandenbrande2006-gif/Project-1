@@ -422,6 +422,8 @@ footer img, nav{
     user-select: none;
 }
 .buttoncontact{
+    text-align: center;
+    text-decoration: none;
     cursor: text;
     user-select: text;
 }
