@@ -418,12 +418,26 @@ label {
 
 
 }
-footer img, nav{
+
+footer img,
+nav {
     user-select: none;
 }
-.buttoncontact{
+
+.buttoncontact {
     text-align: center;
     text-decoration: none;
     cursor: text;
     user-select: text;
+}
+
+.font {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.fontT {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
