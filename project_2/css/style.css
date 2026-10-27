@@ -421,3 +421,7 @@ label {
 footer img, nav{
     user-select: none;
 }
+.buttoncontact{
+    cursor: text;
+    user-select: text;
+}
